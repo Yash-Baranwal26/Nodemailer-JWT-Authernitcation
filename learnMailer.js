@@ -19,7 +19,7 @@ const transport = nodemailer.createTransport({
 app.get("/send-mail", (req, res) => {
   const mailOptions = {
     from: '"Yash Baranwal" <stranger2copy@gmail.com>',
-    to: "shristi.chaurasiya03@gmail.com",
+    to: "",// Enter mail here
     subject: "Yash Baranwal",
     text: "If you receive all the 3 mail then reply me for confermation",
   };
